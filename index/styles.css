@@ -97,7 +97,8 @@ button {
   height: 35px;
   padding: 0 20px;
   margin-right: 5px;
-  box-shadow: 0 4px 8px 0 rgba(38, 111, 172, 0.589), 0 6px 20px 0 rgba(175, 233, 83, 0.63);
+  box-shadow: 0 4px 8px 0 rgba(38, 111, 172, 0.589),
+    0 6px 20px 0 rgba(175, 233, 83, 0.63);
 }
 
 button:hover {
@@ -106,11 +107,11 @@ button:hover {
 }
 
 .footer {
-    position: fixed;
-    display: block;
-    left: 0;
-    width: 100%;
-    bottom: 0;
+  position: fixed;
+  display: block;
+  left: 0;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer ul {
@@ -120,16 +121,16 @@ button:hover {
 }
 
 .footer li {
-    margin-right: 25px;
-    font-size: 15px;
+  margin-right: 25px;
+  font-size: 15px;
 }
 
 .footer li a {
-    text-decoration: none;
-    color: #757575;
-    font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  color: #757575;
+  font-family: "Arial", sans-serif;
 }
 
 .footer li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
