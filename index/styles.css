@@ -40,11 +40,38 @@ body {
 .header li a {
   display: block;
   float: right;
-  text-decoration: none;
   color: #1e1e1e;
   font-family: "Arial", sans-serif;
 }
 
 .header li a:hover {
   text-decoration: underline;
+}
+
+.search {
+    width: 100%;
+    position: static;
+    float: none;
+}
+
+.searchInput {
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    width: 570px;
+    border: 1px solid #e4e4e4;
+    padding: 5px;
+    height: 33px;
+    border-radius: 1px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    box-shadow: 0 2px 2px 0px rgba(181, 7, 250, 0.377), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+.searchInput:hover {
+    box-shadow: 1px 4px 8px 1px rgba(11, 165, 236, 0.685), 0 8px 20px 0 rgba(233, 230, 56, 0.507);
 }
