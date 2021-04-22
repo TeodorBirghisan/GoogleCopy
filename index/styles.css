@@ -11,8 +11,6 @@ body {
   padding: 0;
   border-radius: 50%;
   float: right;
-  display: block;
-  clear: both;
   margin-top: -10px;
 }
 
