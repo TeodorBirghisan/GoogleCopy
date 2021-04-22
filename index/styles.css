@@ -110,7 +110,11 @@ button:hover {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+.language a {
+    padding: 5px;
 }
 
 .footer {
