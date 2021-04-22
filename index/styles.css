@@ -98,3 +98,32 @@ button:hover {
   border: 1px solid #d336a4cc;
   color: black;
 }
+
+.footer {
+    position: fixed;
+    display: block;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 15px 30px;
+  padding: 15px;
+}
+
+.footer li {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #757575;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
