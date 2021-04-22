@@ -6,10 +6,9 @@ body {
 }
 
 .user {
-
 }
 
-.user img{
+.user img {
   width: 35px;
   margin: 0 20px 0 10px;
   padding: 0;
@@ -49,29 +48,56 @@ body {
 }
 
 .search {
-    width: 100%;
-    position: static;
-    float: none;
+  width: 100%;
+  position: static;
+  float: none;
 }
 
 .searchInput {
-    -webkit-font-smoothing: antialiased;
-    line-height: normal;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    display: block;
-    width: 570px;
-    border: 1px solid #e4e4e4;
-    padding: 5px;
-    height: 33px;
-    border-radius: 1px;
-    outline: none;
-    color: black;
-    font-size: 16px;
-    box-shadow: 0 2px 2px 0px rgba(181, 7, 250, 0.377), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+  -webkit-font-smoothing: antialiased;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  width: 570px;
+  border: 1px solid #e4e4e4;
+  padding: 5px;
+  height: 33px;
+  border-radius: 1px;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  box-shadow: 0 2px 2px 0px rgba(181, 7, 250, 0.377),
+    0 6px 20px 0 rgba(0, 0, 0, 0.03);
 }
 
 .searchInput:hover {
-    box-shadow: 1px 4px 8px 1px rgba(11, 165, 236, 0.685), 0 8px 20px 0 rgba(233, 230, 56, 0.507);
+  box-shadow: 1px 4px 8px 1px rgba(11, 165, 236, 0.685),
+    0 8px 20px 0 rgba(233, 230, 56, 0.507);
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #efefef;
+  color: #454545;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #e7e7e7;
+  font-size: 14px;
+  height: 35px;
+  padding: 0 20px;
+  margin-right: 5px;
+  box-shadow: 0 4px 8px 0 rgba(38, 111, 172, 0.589), 0 6px 20px 0 rgba(175, 233, 83, 0.63);
+}
+
+button:hover {
+  border: 1px solid #d336a4cc;
+  color: black;
 }
