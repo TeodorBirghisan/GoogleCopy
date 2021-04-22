@@ -125,24 +125,61 @@ button:hover {
   background-color: #f2f2f2;
 }
 
-.footer ul {
+.footer-right {
+    margin-right: 0;
+    margin-left: auto;
+    width: fit-content;
+    padding: 5px;
+}
+
+.footer-right ul {
   list-style-type: none;
-  margin: 15px 30px;
-  padding-right: 0px;
   padding-bottom: 15px;
 }
 
-.footer li {
+.footer-right li {
   margin-right: 10px;
   font-size: 15px;
 }
 
 .footer li a {
   text-decoration: none;
-  color: #757575;
+  color: #70757a;
   font-family: "Arial", sans-serif;
 }
 
 .footer li a:hover {
   text-decoration: underline;
+}
+
+.footer-country{
+    padding: 5px 20px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    height: fit-content;
+}
+
+.footer-country h4 {
+    color: #70757a;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.footer-left {
+    margin-right: auto;
+    margin-left: 0;
+    width: fit-content;
+    margin-top: auto;
+    padding: 0;
+}
+
+.footer-left ul {
+    list-style-type: none;
+}
+
+.footer-left li {
+  margin-right: 10px;
+  font-size: 15px;
+  padding: 5px;
 }
